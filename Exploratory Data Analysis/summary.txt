@@ -1,0 +1,51 @@
+two types of data: 
+    1.numerical:
+            height,weight,age
+    2.categorical:
+            country,name,college
+
+**univariate analysis: 
+analysing a single column or feature.
+
+#assume a column named survived where it has two values either 0 or 1 , so on analysing it we will plot its data
+
+    1.lets say we used count plot to plot the count of people who survived and not survived,it will count 0 and 1 draw a bar chart of it,
+
+    2.if we take the box plot it give 5 number summary:
+    minimum, interquartile range(IQR), maximum, to detect the amount of data noisy and outlier
+
+    q1=25 percentile
+    q2=50 percentile
+    q3=75 percentile
+
+    interquartile range (IQR)= q3 - q1
+    minimum = q1 - 1.5*IQR
+    maximum = q3 + 1.5*IQR
+
+    3.analysing the skewness of the data, lets say students in a test got marks, if we analyse it via plotting like x marks got by y number of students, now draw an ogive of the distribution, the curve will define the skewness
+
+**multivariate analysis:analysing multiple columns or features
+
+#while analysing the tips dataset we got an almost linear graph where on increasing the totalbill tips is increasing
+    1.applied more analysis like the distinction of female and male , smoker or not, and size by no of customers for that bill
+
+
+#assume we are using the titanic dataset where we are analysing the class and age columns
+    1.in class 1 people are in age 36 around,
+    in class 2 people are in age 29 around
+    in class 3 people are in age 25 around
+
+    2.applied analysis in the titanic dataset using heatmap on the count of survival for each class and results in light and dark color range depending on the count of survival
+
+    3.grouped by gender and the embarked station and plotting a pie chart against survived
+    found that most survivors are women and are coming embarking from C
+
+    4.using clustermap saw the relationship of people with parch against survived
+
+#analysing the flights dataset 
+    1.using the heatmap saw that most passengers are looking for summer time for flight like months of june to aug
+   
+    2.used the line plot , saw that there is almost an increasing rate of passengers on every further year
+
+#analysing the iris dataset
+    1.got to know about the pair plot and overall summary of the data it shows by leveraging all the columns and showing the relationship
